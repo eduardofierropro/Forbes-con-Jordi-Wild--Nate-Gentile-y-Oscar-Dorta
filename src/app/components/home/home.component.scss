@@ -1,0 +1,226 @@
+.main{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    
+    &__video{
+        height: 90vh;
+    }
+}
+
+.full{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    margin: 90vh 0 0;
+    background-color: #181818;
+    color:white;
+    
+}
+.intro{
+    width: 100%;
+    min-height: 60vh;
+    padding: 3em 0 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    animation: slideUp 1s ease 1 4s both;
+    
+
+    &__wrapper{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+
+        gap:4em;
+
+        @media screen and (max-width:90rem){
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    }
+    &__col{
+        flex-basis: 50%;
+    }
+    &__h2{
+        font-size: 5em;
+    }
+    &__img{
+        max-width: 25em;
+        margin: 1em  0 0;
+        @media screen and (max-width:90rem){
+            margin: 2em 0 4em;
+        }
+    }
+    &__p{
+        font-size: 2em;
+        margin: 0 0 1em;
+    }
+}
+
+.sticky{
+    position: sticky;
+    top:5em;
+    z-index: 5;
+
+
+    @media screen and (max-width:90rem){
+        position: fixed;
+        width: 100%;
+        height: calc( 100% - 5em );
+        top: auto;
+        bottom: 0;
+        left: 0;
+        opacity: 0;
+        pointer-events: none;
+        transition: all .5s ease;
+        
+        &.active{
+            opacity: 1;
+            pointer-events: auto;
+        }
+    }
+    
+
+    &__ul{
+        width: 100%;
+        height: 100%;
+        background-color: #282828d0;
+        
+        padding: 1em 0;
+
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;   
+        
+        backdrop-filter: blur(.7em);
+        
+        @media screen and (max-width:90rem){
+            flex-direction: column;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    }
+    &__li{
+        margin: .5em 1em;
+        @media screen and (max-width:90rem){
+            margin: 1em 0;
+            
+        }
+    }
+    &__a{
+        text-transform: capitalize;
+        position: relative;
+        font-size: 1.6em;
+
+        &:hover::after{
+            transform: scaleX(100%);
+        }
+        &.active::after{
+            background-color: white;
+            // background: linear-gradient(93deg, rgba(34,193,195,1) 0%, rgba(233,45,253,1) 100%);
+            transform: scaleX(100%);
+        }
+        &::after{
+            content: '';
+            display: block;
+            width: 100%;
+            height: 2px;
+            background-color: rgba(255,255,255,.4);
+            // background: linear-gradient(93deg, rgba(34,193,195,1) 0%, rgba(233,45,253,1) 100%);
+            bottom: -1em;
+            left: 0;
+
+            transition: all .5s ease;
+            transform: scaleX(0%);
+        }
+    }
+}
+
+.section{
+    // position: relative;
+    // overflow: hidden;
+    
+    &__sticky{
+
+    }
+    &__wrapper{
+        padding: 5em 0;
+        
+    }
+    &__h3{
+        font-size: clamp( 1rem , 15vw , 9rem);
+        margin: 0 0 .4em;
+        padding: 7rem 0 0;
+        
+        @media screen and (max-width:90rem){
+            font-size: 1em;    
+        }
+    }
+    &__grid{
+        display: grid;
+        grid-template-columns: repeat( 2 , 1fr );
+        gap: 1em;
+        
+        @media screen and (max-width:90rem){
+            display: block;
+        }
+    }
+    &__influencer{
+        
+        &.grande{
+            grid-column: span 2;
+            border-color: white;
+        }
+    }   
+}
+
+
+.menu{
+    background-color: #282828;
+    padding: 1em;
+
+    position: fixed;
+    bottom: 1.5em;
+    right: 1.5em;
+
+    border-radius: 50%;
+    z-index: 4;
+
+    box-shadow: 0 0 1em rgba(0,0,0,.8);
+    transition: all .5s ease;
+
+    display: none;
+    @media screen and (max-width:90rem){
+        display: block;
+    }
+    &:hover{
+        transform: scale(.9);
+    }
+    &:active{
+        transform: scale(1.1);
+    }
+    &__svg{
+        width: 3em;
+        height: 3em;
+        fill: white;
+        opacity: 0;
+        transition: all .5s ease ;
+        &.active{
+            opacity: 1;
+        }
+        &.close{
+            position: absolute;
+            top: 1em;
+            left: 1em;
+        }
+    }
+    
+}

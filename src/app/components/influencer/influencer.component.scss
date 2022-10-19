@@ -1,0 +1,74 @@
+.grande{
+    border-color: white;
+    .influencer__p{
+        font-size: 2em;
+    }
+}
+.influencer{
+    min-height: 20em;
+    border: 1px solid rgba(255,255,255,.2);
+        
+    display: grid;
+    grid-template-columns: repeat( 2 , 1fr );
+    gap: 1em;
+    justify-content: center;
+    
+    
+    padding: 2em;
+
+    @media screen and (max-width:75rem){
+        grid-template-columns: 1fr ;
+    }
+    
+    &__col{
+        position: relative;
+        overflow: hidden;
+    }
+    &__img{
+        &.piscina{
+            position: absolute;
+            top:0;
+            left:0;
+            transition: all .5s ease;
+            opacity: 0;
+            transform: scale(1.2);
+            &:hover{
+                opacity: 1;
+                transform: scale(1.1);
+            }
+        }
+    }
+    
+    &__h4{
+        margin: 0 0 .5em;
+        font-size: 2em;
+        text-transform: uppercase;
+    }
+    &__h5{
+        margin: 0 0 .6em;
+        font-size: 1.4em;
+        color:grey;
+    }
+    &__ul{        
+        margin: 0 0 .5em;
+        padding: 1em 0;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        gap:1em;
+    }
+    &__li{
+        
+    }
+    &__a{}
+
+    &__svg{
+        width:1.4em;
+        height:1.4em;
+    }
+    &__li{}
+    &__p{
+        max-height: 10em;
+    }
+}

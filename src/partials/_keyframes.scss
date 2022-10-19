@@ -1,0 +1,44 @@
+@keyframes slideDown{
+    from{
+        transform: translateY(-100%);
+    }
+    to{
+        transform: translateY(0%);
+    }
+}
+@keyframes slideUp{
+    from{
+        transform: translateY(10%);
+    }
+    to{
+        transform: translateY(0%);
+    }
+}
+@keyframes fadeOut{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+@keyframes clippy{
+    0%{
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    }
+    50%{
+        clip-path: polygon(0 0, 100% 0%, 0 100%, 0% 100%);
+    }
+    
+    100%{
+        clip-path: polygon(0 0, 100% 0%, 0 0, 0 0);
+    }
+}
+@keyframes scale{
+    from{
+        transform: scale(1.2);
+    }
+    to{
+        transform: scale(1);
+    }
+}
