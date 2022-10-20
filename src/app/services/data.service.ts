@@ -176,7 +176,7 @@ export class DataService {
                   tiktok: "@TheWildProject"
                 }
               ],
-              descripcion: "Jordi Carrillo es un youtuber, actor y modelo nacido en Manresa en 1984. Su canal destaca por su variedad: entrevistas en profundidad, gameplays, cortos y sus vídeo reacciones a Juegos Crazy dan a sus más de tres millones de suscriptores el contenido fresco que buscan."
+              descripcion: "Jordi Wild es un actor, youtuber y modelo español, nacido en Barcelona (España) a mediados de los ochenta, conocido por ser uno de los creadores de contenido de la red más originales, completos y con más seguidores del panorama actual, sumando actualmente más de 12 millones de followers en el global de sus redes. Durante los últimos años, además de dedicarse a su canal de Youtube, donde ha entretenido a millones de personas cada mes, ha realizado una provechosa incursión en el mundo literario, con la publicación de su primera novela “Sueños de Acero y Neón”, seguido de un cómic llamado “Jorgemyte, Agente la P.E.M.”; ambos grandes éxitos con varias ediciones."
             },
             {
               
@@ -523,7 +523,7 @@ export class DataService {
                   tiktok: "@maarta_diaz"
                 }
               ],
-              descripcion: "Muy activa en redes sociales, suma más de 10 millones de seguidores entre sus principales plataformas: TikTok, Instagram y YouTube. Lo de ser influencer lo lleva en la sangre y es que es hermana de AlphaSniper97, un potente youtuber de gameplays. Marta comenzó a experimentar pronto con las redes sociales, destacando por sus bailes y sus “arréglate conmigo”. Comparte su rutina diaria en el gimnasio, su día a día y algunas píldoras de su relación con el futbolista del Atlético de Madrid, Sergio Reguilón. Este año ha asistido a grandes estrenos y eventos, de la talla del Festival de Cannes, Coachella o la Velada del año."
+              descripcion: "Oscar es especialista en doblar escenas de riesgo, y se juega su vida en cada rodaje. Ha sido premiado con el Yago al no reconocido en 2019, tras una larga trayectoria defendiendo y luchando por el reconocimiento de los especialistas de acción. Comenzó muy joven, con tan solo 19 años, salió de su isla natal, Tenerife. Después de varios años de entrenamiento y dedicación, consiguió entrar en el mundo de los espectáculos en vivo, un trabajo duro y extenuante, para más tarde, iniciarse en el mundo del cine, su pasión, aventura que dura hasta hoy mismo. Ha rodado en Tenerife, Las Palmas, Lanzarote y Fuerteventura producciones nacionales e internacionales."
             },
             {
               
