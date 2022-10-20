@@ -25,6 +25,7 @@ export class HomeComponent implements OnInit {
   }
   public setActive( valor : number ) : void {
     this.liActive = valor 
+    this.stickyActive = false
   }
   public setStickyActive() : void {
     this.stickyActive = !this.stickyActive

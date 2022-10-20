@@ -26,6 +26,9 @@
     &__h1{
         font-size: 2em;
         max-width: 5.37em;
+        @media screen and  (max-width:43.75em){
+            max-width: 4em;
+        }
     }
     &__logo{}
     &__forbes{}

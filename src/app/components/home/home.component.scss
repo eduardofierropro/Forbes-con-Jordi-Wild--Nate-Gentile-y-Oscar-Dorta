@@ -102,7 +102,7 @@
         backdrop-filter: blur(.7em);
         
         @media screen and (max-width:90rem){
-            flex-direction: column;
+            flex-flow: column nowrap;
             position: absolute;
             top: 0;
             left: 0;
@@ -112,7 +112,7 @@
         margin: .5em 1em;
         @media screen and (max-width:90rem){
             margin: 1em 0;
-            
+            font-size: .8em;
         }
     }
     &__a{
