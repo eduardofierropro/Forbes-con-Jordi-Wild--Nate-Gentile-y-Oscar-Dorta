@@ -19,7 +19,7 @@
     }
     &__img{
         min-height: 370px;
-        
+
         &.piscina{
             position: absolute;
             top:0;
@@ -68,9 +68,8 @@
         line-height: 1.4em;
         height: 9em; /* Esto no hay que hacerlo en la vida real 💩 */
         overflow: hidden;
-        @media screen and (max-width:43.75em){
+        @media screen and (max-width:35rem){
             height: initial;
-
         }
         position: relative;
         &::after{
@@ -95,7 +94,7 @@
     .influencer__p{
         height: auto;
         font-size: 2em;
-        @media screen and (max-width:43.75em){
+        @media screen and (max-width:35rem){
             font-size: 1.3em;
 
         }

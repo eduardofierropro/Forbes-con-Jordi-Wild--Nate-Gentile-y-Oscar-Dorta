@@ -7,7 +7,7 @@ import { IInfluencer, ISticky } from 'src/interfaces/interfaces';
 export class DataService {
 
     public influencers : IInfluencer[] =  [
-        {
+       /*  {
           href: "creativity",
           titulo: "Creativity",
           datos: [
@@ -35,8 +35,436 @@ export class DataService {
               descripcion: "Detrás del proyecto de fotografía creativa Jordi Koalitic se encuentran dos hermanos apasionados por la imagen: Jordi y Arnau Puig (1992). Estos jóvenes catalanes muestran el making of de sus procesos creativos, y lo hacen de forma sencilla y sincera, dando lugar a espectaculares fotografías. Los hermanos Puig han conquistado a casi 20 millones de seguidores en TikTok, siendo los primeros españoles que cobraron por sus contenidos en la plataforma china. Eso no es todo, además de las redes, han creado su propia productora, Koalitic Visuals, donde trabajan con marcas globales y grandes profesionales del mundo audiovisual."
             }
           ]
-        },
+        }, */
        
+        {
+          href: "lifestyle",
+          titulo: "Lifestyle",
+          datos: [
+            {
+              
+              nombre: "Oscar Dorta",
+              imagen: "assets/influencers/oscar-dota.jpg",
+              categoria: "Lifestyle",
+              grande : true,
+              rrss: [
+                {
+                  instagram: "@maarta_diaz"
+                },
+                {
+                  youtube: "@maarta_diaz"
+                },
+                {
+                  twitter: "@maarta_diaz"
+                },
+                {
+                  tiktok: "@maarta_diaz"
+                }
+              ],
+              descripcion: "Oscar es especialista en doblar escenas de riesgo, y se juega su vida en cada rodaje. Ha sido premiado con el Yago al no reconocido en 2019, tras una larga trayectoria defendiendo y luchando por el reconocimiento de los especialistas de acción. Comenzó muy joven, con tan solo 19 años, salió de su isla natal, Tenerife. Después de varios años de entrenamiento y dedicación, consiguió entrar en el mundo de los espectáculos en vivo, un trabajo duro y extenuante, para más tarde, iniciarse en el mundo del cine, su pasión, aventura que dura hasta hoy mismo. Ha rodado en Tenerife, Las Palmas, Lanzarote y Fuerteventura producciones nacionales e internacionales."
+            },
+            {
+              
+              
+              nombre: "MARTA DÍAZ",
+              imagen: "assets/influencers/marta-diaz.jpg",
+              categoria: "Lifestyle",
+              rrss: [
+                {
+                  instagram: "@maarta_diaz"
+                },
+                {
+                  youtube: "@maarta_diaz"
+                },
+                {
+                  twitter: "@maarta_diaz"
+                },
+                {
+                  tiktok: "@maarta_diaz"
+                }
+              ],
+              descripcion: "Muy activa en redes sociales, suma más de 10 millones de seguidores entre sus principales plataformas: TikTok, Instagram y YouTube. Lo de ser influencer lo lleva en la sangre y es que es hermana de AlphaSniper97, un potente youtuber de gameplays. Marta comenzó a experimentar pronto con las redes sociales, destacando por sus bailes y sus “arréglate conmigo”. Comparte su rutina diaria en el gimnasio, su día a día y algunas píldoras de su relación con el futbolista del Atlético de Madrid, Sergio Reguilón. Este año ha asistido a grandes estrenos y eventos, de la talla del Festival de Cannes, Coachella o la Velada del año."
+            },
+            {
+              
+              nombre: "MÓNICA MORÁN",
+              imagen: "https://forbes.es/wp-content/uploads/2022/09/Monica-Moran-400x400.jpg",
+              categoria: "Lifestyle",
+              rrss: [
+                {
+                  instagram: "@monismurf"
+                },
+                {
+                  youtube: "@monismurf"
+                },
+                {
+                  twitter: "@monismurf"
+                },
+                {
+                  tiktok: "@monismurf"
+                }
+              ],
+              descripcion: "En el primer mes en TikTok alcanzó los 100.000 seguidores y ya está cerca de los 10 millones. Estrella de la red social de moda comparte bailes, retos o<em>nailart</em>con transiciones muy trabajadas. Este año ha sacado su tercer libro donde narra su vida detrás de las redes."
+            },
+            {
+              
+              nombre: "PAULA ECHEVARRÍA",
+              imagen: "https://forbes.es/wp-content/uploads/2022/09/Paula-Echevarria-400x400.jpg",
+              categoria: "Lifestyle",
+              rrss: [
+                {
+                  instagram: "@pau_eche"
+                },
+                {
+                  youtube: "@pau_eche"
+                },
+                {
+                  twitter: "@pau_eche"
+                },
+                {
+                  tiktok: "@pau_eche"
+                }
+              ],
+              descripcion: "La actriz ha sabido sacar el máximo partido a las redes sociales convirtiéndose en toda una it girl. Tras años subiendo looks a un blog, ahora dirige su propia marca de ropa, Space Flamingo. Además de sus rompedores estilismos comparte sus entrenamientos, memes y su maternidad."
+            },
+            {
+              
+              nombre: "FRANCISCO BORSOI",
+              imagen: "https://forbes.es/wp-content/uploads/2022/09/Borsoi-400x400.jpg",
+              categoria: "Lifestyle",
+              rrss: [
+                {
+                  instagram: "@borsoi"
+                },
+                {
+                  youtube: "@borsoi"
+                },
+                {
+                  twitter: "@borsoi"
+                },
+                {
+                  tiktok: "@borsoi"
+                }
+              ],
+              descripcion: "Desde una perspectiva artística y sofisticada comparte lo mejor de su día a día, looks, momentos con sus amigos, su pareja, viajes y algunas bromas. Utilizando casi siempre la lengua de Shakespeare, este brasileño afincado en Madrid trabaja con grandes marcas."
+            },
+            {
+              
+              nombre: "ESTER EXPÓSITO",
+              imagen: "https://forbes.es/wp-content/uploads/2022/09/Ester-Exposito-400x400.jpg?crop=1",
+              categoria: "Lifestyle",
+              rrss: [
+                {
+                  instagram: "@ester_exposito"
+                },
+                {
+                  youtube: "@ester_exposito"
+                },
+                {
+                  twitter: "@ester_exposito"
+                },
+                {
+                  tiktok: "@ester_exposito"
+                }
+              ],
+              descripcion: "Es una de las actrices del momento y todo lo que toca, o publica, se convierte en oro. Llegó a ser la española con más seguidores de Instagram y actualmente ocupa el segundo puesto con 29 millones. Sus posados, looks de alfombra roja y selfies acumulan millones de likes."
+            },
+            {
+              
+              nombre: "CRISTINA PEDROCHE",
+              imagen: "https://forbes.es/wp-content/uploads/2022/09/Cristina-Pedroche-400x400.jpg",
+              categoria: "Lifestyle",
+              rrss: [
+                {
+                  instagram: "@cristipedroche"
+                },
+                {
+                  youtube: "@cristipedroche"
+                },
+                {
+                  twitter: "@cristipedroche"
+                },
+                {
+                  tiktok: "@cristipedroche"
+                }
+              ],
+              descripcion: "Presentadora, modelo y colaboradora de televisión ligada a Atresmedia desde que se dio a conocer en 2010. En las redes, muestra su amor por el deporte y por la cocina, acompañando siempre a su marido, el chef Dabiz Muñoz."
+            },
+            {
+              
+              nombre: "LAURA CORSINI",
+              imagen: "https://forbes.es/wp-content/uploads/2022/09/Laura-Corsini-400x400.jpg",
+              categoria: "Lifestyle",
+              rrss: [
+                {
+                  instagram: "@birmani13"
+                },
+                {
+                  youtube: "@birmani13"
+                },
+                {
+                  twitter: "@birmani13"
+                },
+                {
+                  tiktok: "@birmani13"
+                }
+              ],
+              descripcion: "La CEO de Bimani arrasa por su naturalidad y pasión por la moda. Lo demuestra con las prendas de su marca, pensadas para adaptarse al cuerpo de la mujer, versátiles y sin necesidad de planchado. Este verano ha encandilado con su boda de ensueño y hace poco estrenó cuenta personal."
+            },
+            {
+              
+              nombre: "VERÓNICA COSTA",
+              imagen: "https://forbes.es/wp-content/uploads/2022/09/Vikikacosta-400x400.jpg",
+              categoria: "Lifestyle",
+              rrss: [
+                {
+                  instagram: "@vikikacosta"
+                },
+                {
+                  youtube: "@vikikacosta"
+                },
+                {
+                  twitter: "@vikikacosta"
+                },
+                {
+                  tiktok: "@vikikacosta"
+                }
+              ],
+              descripcion: "Se ha convertido en una estrella del fitness. Defendiendo un estilo de vida saludable, ha fundado dos empresas de entreno online y nutrición: Entrena Virtual y Vikika Team. En redes, sus seguidores han sido testigos de su embarazo y de la realidad del posparto. Eso sí, siempre en forma."
+            },
+            {
+              
+              nombre: "VERÓNICA DÍAZ",
+              imagen: "https://forbes.es/wp-content/uploads/2022/09/Veronica-Diaz-400x400.jpg",
+              categoria: "Lifestyle",
+              rrss: [
+                {
+                  instagram: "@modajustcoco"
+                },
+                {
+                  youtube: "@modajustcoco"
+                },
+                {
+                  twitter: "@modajustcoco"
+                },
+                {
+                  tiktok: "@modajustcoco"
+                }
+              ],
+              descripcion: "Lo que comenzó como un blog de periodismo de moda acabó congregando a casi un millón de suscriptores en Youtube e impulsando la creación de su propia marca, Crvsh. En las redes la influencer malagueña Verónica Díaz lleva más de diez años compartiendo su día a día."
+            },
+            {
+              
+              nombre: "CARLOS MARTÍN",
+              imagen: "https://forbes.es/wp-content/uploads/2022/09/ByCarlitos-400x400.jpg",
+              categoria: "Lifestyle",
+              rrss: [
+                {
+                  instagram: "@byCalitos"
+                },
+                {
+                  youtube: "@byCalitos"
+                },
+                {
+                  twitter: "@byCalitos"
+                },
+                {
+                  tiktok: "@byCalitos"
+                }
+              ],
+              descripcion: "Carlos Martín dicta tendencia. El joven ha conseguido hacerse un hueco en el sector de la moda urbana y su éxito en YouTube lo ha llevado a crear una de las ferias de<em>streetwear</em>más importantes del país: Scrapworld. Un evento que agota entradas y cuenta con sponsors internacionales."
+            },
+            {
+              
+              nombre: "MARÍA POMBO",
+              imagen: "https://forbes.es/wp-content/uploads/2022/09/Maria-Pombo-1-400x400.jpg",
+              categoria: "Lifestyle",
+              rrss: [
+                {
+                  instagram: "@mariapombo"
+                },
+                {
+                  youtube: "@mariapombo"
+                },
+                {
+                  twitter: "@mariapombo"
+                },
+                {
+                  tiktok: "@mariapombo"
+                }
+              ],
+              descripcion: "ADN emprendedor, María ha creado dos marcas de ropa y su propio festival, Suave Fest. Empezó a compartir su vida hace 10 años y ahora es una de las influencers más relevantes del país con una fuerte presencia mediática que la ha llevado a ganar el premio ‘Ídolo del año 2022’."
+            },
+            {
+              
+              nombre: "MANU RÍOS",
+              imagen: "https://forbes.es/wp-content/uploads/2022/09/Manu-Rios-400x400.jpg",
+              categoria: "Lifestyle",
+              rrss: [
+                {
+                  instagram: "@manurios"
+                },
+                {
+                  youtube: "@manurios"
+                },
+                {
+                  twitter: "@manurios"
+                },
+                {
+                  tiktok: "@manurios"
+                }
+              ],
+              descripcion: "Actor, modelo y cantante, conocido por su participación en Élite. Hace poco estrenaba La edad de la ira en febrero y se ha convertido en chico Almodóvar, con quien graba Extraña forma de vida. De joven, destacó en la obra de Los Miserables y ahora es una estrella también en redes."
+            },
+            {
+              
+              nombre: "GEORGINA RODRIGUEZ",
+              imagen: "https://forbes.es/wp-content/uploads/2022/09/Georgina-Rodriguez-400x400.jpg",
+              categoria: "Lifestyle",
+              rrss: [
+                {
+                  instagram: "@georginaglo"
+                },
+                {
+                  youtube: "@georginaglo"
+                },
+                {
+                  twitter: "@georginaglo"
+                },
+                {
+                  tiktok: "@georginaglo"
+                }
+              ],
+              descripcion: "Este ha sido su año, profesionalmente hablando. Ha estrenado una docuserie en Netflix, multiplicando su popularidad y triunfando allá donde va. Georgina lleva y muestra una vida de lujo, pero a la vez comparte de forma humilde la familia que ha formado junto a Cristiano Ronaldo."
+            },
+            {
+              
+              nombre: "TAMARA FALCÓ",
+              imagen: "https://forbes.es/wp-content/uploads/2022/09/Tamara-Falco-1-400x400.jpg",
+              categoria: "Lifestyle",
+              rrss: [
+                {
+                  instagram: "@tamara_falco"
+                },
+                {
+                  youtube: "@tamara_falco"
+                },
+                {
+                  twitter: "@tamara_falco"
+                },
+                {
+                  tiktok: "@tamara_falco"
+                }
+              ],
+              descripcion: "La marquesa de Griñón es polifacética. Tiene una firma de ropa, un libro de recetas, es chef, colaboradora de televisión, diseñadora e influencer. La ganadora de la cuarta edición de MasterChef Celebrity comparte en Instagram su visión sobre la moda, la fe y sus creaciones culinarias."
+            },
+            {
+              
+              nombre: "ESTEFANÍA VERDELISS",
+              imagen: "https://forbes.es/wp-content/uploads/2022/09/Estefi-Verdeliss-400x400.jpg",
+              categoria: "Lifestyle",
+              rrss: [
+                {
+                  instagram: "@verdeliss"
+                },
+                {
+                  youtube: "@verdeliss"
+                },
+                {
+                  twitter: "@verdeliss"
+                },
+                {
+                  tiktok: "@verdeliss"
+                }
+              ],
+              descripcion: "Pionera en subir vlogs a YouTube (a modo de diario), cuando vivía lejos de su Pamplona natal, ahora triunfa también en Instagram donde supera el millón y medio de seguidores. Madre de familia numerosa, se comparte natural y muestra lo bueno y lo malo del embarazo, el parto y la crianza."
+            },
+            {
+              
+              nombre: "MARTA POMBO",
+              imagen: "assets/influencers/marta-pombo.jpg",
+              categoria: "Lifestyle",
+              rrss: [
+                {
+                  instagram: "@mpombor"
+                },
+                {
+                  youtube: "@mpombor"
+                },
+                {
+                  twitter: "@mpombor"
+                },
+                {
+                  tiktok: "@mpombor"
+                }
+              ],
+              descripcion: "La mediana de las Pombo se ha ganado un hueco en las redes con su frescura y espontaneidad. En su perfil habla sin tapujos de lo oscura que puede ser una depresión y de la importancia de la salud mental. Ahora, viviendo uno de sus mejores momentos, la influencer se encuentra enamorada y prometida del bilbaíno Luis Zamalloa. Ambos esperan la llegada de su primera hija, Matilda. Durante todo el embarazo, Marta ha seguido compartiendo sus rutinas, viajes, comidas y los largos paseos con su perrita. No abandona el trabajo ni a sus seguidores, ya que la madrileña sigue colaborando con las marcas y trabajando en la suya propia."
+            },
+            {
+              
+              nombre: "LAURA ESCANES",
+              imagen: "https://forbes.es/wp-content/uploads/2022/09/Laura-Escanes-400x400.jpg",
+              categoria: "Lifestyle",
+              rrss: [
+                {
+                  instagram: "@lauraescanes"
+                },
+                {
+                  youtube: "@lauraescanes"
+                },
+                {
+                  twitter: "@lauraescanes"
+                },
+                {
+                  tiktok: "@lauraescanes"
+                }
+              ],
+              descripcion: "La modelo saltó a la fama por su relación con Risto Mejide, pero no le debe nada. Gracias a las redes siempre ha tenido voz propia, tanto en Instagram como en TikTok, ahora también en Twitch. La madre de Roma tiene su propio salón de belleza y acaba de estrenar podcast con su pareja."
+            },
+            {
+              
+              nombre: "VIOLETA MANGRIÑÁN",
+              imagen: "https://forbes.es/wp-content/uploads/2022/09/Violeta-Mangrin%CC%83an-1-400x400.jpg",
+              categoria: "Lifestyle",
+              rrss: [
+                {
+                  instagram: "@violeta"
+                },
+                {
+                  youtube: "@violeta"
+                },
+                {
+                  twitter: "@violeta"
+                },
+                {
+                  tiktok: "@violeta"
+                }
+              ],
+              descripcion: "Se dio a conocer en diferentes programas de Telecinco. Este año ha tenido a sus seguidores enganchados al proceso de construcción de su casa y al nacimiento de su pequeña. No solo despunta en Instagram, en TikTok roza el millón de<em>followers</em>."
+            },
+            {
+              
+              nombre: "LAURA MATAMOROS",
+              imagen: "https://forbes.es/wp-content/uploads/2022/09/Laura-Matamoros-400x400.jpg",
+              categoria: "Lifestyle",
+              rrss: [
+                {
+                  instagram: "@_lmflores"
+                },
+                {
+                  youtube: "@_lmflores"
+                },
+                {
+                  twitter: "@_lmflores"
+                },
+                {
+                  tiktok: "@_lmflores"
+                }
+              ],
+              descripcion: "Hija del colaborador de televisión Kiko Matamoros, ha sabido hacerse un hueco en el sector e impulsar su negocio, llegando a alcanzar el millón de seguidores en Instagram. La madrileña sube a la red su rutina, viajes, looks desenfadados y algunas pinceladas de su reciente maternidad."
+            }
+          ]
+        },
         {
           href: "tecnologia",
           titulo: "Tecnología",
@@ -499,434 +927,7 @@ export class DataService {
             }
           ]
         },
-        {
-          href: "lifestyle",
-          titulo: "Lifestyle",
-          datos: [
-            {
-              
-              nombre: "Oscar Dorta",
-              imagen: "assets/influencers/oscar-dota.jpg",
-              categoria: "Lifestyle",
-              grande : true,
-              rrss: [
-                {
-                  instagram: "@maarta_diaz"
-                },
-                {
-                  youtube: "@maarta_diaz"
-                },
-                {
-                  twitter: "@maarta_diaz"
-                },
-                {
-                  tiktok: "@maarta_diaz"
-                }
-              ],
-              descripcion: "Oscar es especialista en doblar escenas de riesgo, y se juega su vida en cada rodaje. Ha sido premiado con el Yago al no reconocido en 2019, tras una larga trayectoria defendiendo y luchando por el reconocimiento de los especialistas de acción. Comenzó muy joven, con tan solo 19 años, salió de su isla natal, Tenerife. Después de varios años de entrenamiento y dedicación, consiguió entrar en el mundo de los espectáculos en vivo, un trabajo duro y extenuante, para más tarde, iniciarse en el mundo del cine, su pasión, aventura que dura hasta hoy mismo. Ha rodado en Tenerife, Las Palmas, Lanzarote y Fuerteventura producciones nacionales e internacionales."
-            },
-            {
-              
-              
-              nombre: "MARTA DÍAZ",
-              imagen: "assets/influencers/marta-diaz.jpg",
-              categoria: "Lifestyle",
-              rrss: [
-                {
-                  instagram: "@maarta_diaz"
-                },
-                {
-                  youtube: "@maarta_diaz"
-                },
-                {
-                  twitter: "@maarta_diaz"
-                },
-                {
-                  tiktok: "@maarta_diaz"
-                }
-              ],
-              descripcion: "Muy activa en redes sociales, suma más de 10 millones de seguidores entre sus principales plataformas: TikTok, Instagram y YouTube. Lo de ser influencer lo lleva en la sangre y es que es hermana de AlphaSniper97, un potente youtuber de gameplays. Marta comenzó a experimentar pronto con las redes sociales, destacando por sus bailes y sus “arréglate conmigo”. Comparte su rutina diaria en el gimnasio, su día a día y algunas píldoras de su relación con el futbolista del Atlético de Madrid, Sergio Reguilón. Este año ha asistido a grandes estrenos y eventos, de la talla del Festival de Cannes, Coachella o la Velada del año."
-            },
-            {
-              
-              nombre: "MÓNICA MORÁN",
-              imagen: "https://forbes.es/wp-content/uploads/2022/09/Monica-Moran-400x400.jpg",
-              categoria: "Lifestyle",
-              rrss: [
-                {
-                  instagram: "@monismurf"
-                },
-                {
-                  youtube: "@monismurf"
-                },
-                {
-                  twitter: "@monismurf"
-                },
-                {
-                  tiktok: "@monismurf"
-                }
-              ],
-              descripcion: "En el primer mes en TikTok alcanzó los 100.000 seguidores y ya está cerca de los 10 millones. Estrella de la red social de moda comparte bailes, retos o<em>nailart</em>con transiciones muy trabajadas. Este año ha sacado su tercer libro donde narra su vida detrás de las redes."
-            },
-            {
-              
-              nombre: "PAULA ECHEVARRÍA",
-              imagen: "https://forbes.es/wp-content/uploads/2022/09/Paula-Echevarria-400x400.jpg",
-              categoria: "Lifestyle",
-              rrss: [
-                {
-                  instagram: "@pau_eche"
-                },
-                {
-                  youtube: "@pau_eche"
-                },
-                {
-                  twitter: "@pau_eche"
-                },
-                {
-                  tiktok: "@pau_eche"
-                }
-              ],
-              descripcion: "La actriz ha sabido sacar el máximo partido a las redes sociales convirtiéndose en toda una it girl. Tras años subiendo looks a un blog, ahora dirige su propia marca de ropa, Space Flamingo. Además de sus rompedores estilismos comparte sus entrenamientos, memes y su maternidad."
-            },
-            {
-              
-              nombre: "FRANCISCO BORSOI",
-              imagen: "https://forbes.es/wp-content/uploads/2022/09/Borsoi-400x400.jpg",
-              categoria: "Lifestyle",
-              rrss: [
-                {
-                  instagram: "@borsoi"
-                },
-                {
-                  youtube: "@borsoi"
-                },
-                {
-                  twitter: "@borsoi"
-                },
-                {
-                  tiktok: "@borsoi"
-                }
-              ],
-              descripcion: "Desde una perspectiva artística y sofisticada comparte lo mejor de su día a día, looks, momentos con sus amigos, su pareja, viajes y algunas bromas. Utilizando casi siempre la lengua de Shakespeare, este brasileño afincado en Madrid trabaja con grandes marcas."
-            },
-            {
-              
-              nombre: "ESTER EXPÓSITO",
-              imagen: "https://forbes.es/wp-content/uploads/2022/09/Ester-Exposito-400x400.jpg?crop=1",
-              categoria: "Lifestyle",
-              rrss: [
-                {
-                  instagram: "@ester_exposito"
-                },
-                {
-                  youtube: "@ester_exposito"
-                },
-                {
-                  twitter: "@ester_exposito"
-                },
-                {
-                  tiktok: "@ester_exposito"
-                }
-              ],
-              descripcion: "Es una de las actrices del momento y todo lo que toca, o publica, se convierte en oro. Llegó a ser la española con más seguidores de Instagram y actualmente ocupa el segundo puesto con 29 millones. Sus posados, looks de alfombra roja y selfies acumulan millones de likes."
-            },
-            {
-              
-              nombre: "CRISTINA PEDROCHE",
-              imagen: "https://forbes.es/wp-content/uploads/2022/09/Cristina-Pedroche-400x400.jpg",
-              categoria: "Lifestyle",
-              rrss: [
-                {
-                  instagram: "@cristipedroche"
-                },
-                {
-                  youtube: "@cristipedroche"
-                },
-                {
-                  twitter: "@cristipedroche"
-                },
-                {
-                  tiktok: "@cristipedroche"
-                }
-              ],
-              descripcion: "Presentadora, modelo y colaboradora de televisión ligada a Atresmedia desde que se dio a conocer en 2010. En las redes, muestra su amor por el deporte y por la cocina, acompañando siempre a su marido, el chef Dabiz Muñoz."
-            },
-            {
-              
-              nombre: "LAURA CORSINI",
-              imagen: "https://forbes.es/wp-content/uploads/2022/09/Laura-Corsini-400x400.jpg",
-              categoria: "Lifestyle",
-              rrss: [
-                {
-                  instagram: "@birmani13"
-                },
-                {
-                  youtube: "@birmani13"
-                },
-                {
-                  twitter: "@birmani13"
-                },
-                {
-                  tiktok: "@birmani13"
-                }
-              ],
-              descripcion: "La CEO de Bimani arrasa por su naturalidad y pasión por la moda. Lo demuestra con las prendas de su marca, pensadas para adaptarse al cuerpo de la mujer, versátiles y sin necesidad de planchado. Este verano ha encandilado con su boda de ensueño y hace poco estrenó cuenta personal."
-            },
-            {
-              
-              nombre: "VERÓNICA COSTA",
-              imagen: "https://forbes.es/wp-content/uploads/2022/09/Vikikacosta-400x400.jpg",
-              categoria: "Lifestyle",
-              rrss: [
-                {
-                  instagram: "@vikikacosta"
-                },
-                {
-                  youtube: "@vikikacosta"
-                },
-                {
-                  twitter: "@vikikacosta"
-                },
-                {
-                  tiktok: "@vikikacosta"
-                }
-              ],
-              descripcion: "Se ha convertido en una estrella del fitness. Defendiendo un estilo de vida saludable, ha fundado dos empresas de entreno online y nutrición: Entrena Virtual y Vikika Team. En redes, sus seguidores han sido testigos de su embarazo y de la realidad del posparto. Eso sí, siempre en forma."
-            },
-            {
-              
-              nombre: "VERÓNICA DÍAZ",
-              imagen: "https://forbes.es/wp-content/uploads/2022/09/Veronica-Diaz-400x400.jpg",
-              categoria: "Lifestyle",
-              rrss: [
-                {
-                  instagram: "@modajustcoco"
-                },
-                {
-                  youtube: "@modajustcoco"
-                },
-                {
-                  twitter: "@modajustcoco"
-                },
-                {
-                  tiktok: "@modajustcoco"
-                }
-              ],
-              descripcion: "Lo que comenzó como un blog de periodismo de moda acabó congregando a casi un millón de suscriptores en Youtube e impulsando la creación de su propia marca, Crvsh. En las redes la influencer malagueña Verónica Díaz lleva más de diez años compartiendo su día a día."
-            },
-            {
-              
-              nombre: "CARLOS MARTÍN",
-              imagen: "https://forbes.es/wp-content/uploads/2022/09/ByCarlitos-400x400.jpg",
-              categoria: "Lifestyle",
-              rrss: [
-                {
-                  instagram: "@byCalitos"
-                },
-                {
-                  youtube: "@byCalitos"
-                },
-                {
-                  twitter: "@byCalitos"
-                },
-                {
-                  tiktok: "@byCalitos"
-                }
-              ],
-              descripcion: "Carlos Martín dicta tendencia. El joven ha conseguido hacerse un hueco en el sector de la moda urbana y su éxito en YouTube lo ha llevado a crear una de las ferias de<em>streetwear</em>más importantes del país: Scrapworld. Un evento que agota entradas y cuenta con sponsors internacionales."
-            },
-            {
-              
-              nombre: "MARÍA POMBO",
-              imagen: "https://forbes.es/wp-content/uploads/2022/09/Maria-Pombo-1-400x400.jpg",
-              categoria: "Lifestyle",
-              rrss: [
-                {
-                  instagram: "@mariapombo"
-                },
-                {
-                  youtube: "@mariapombo"
-                },
-                {
-                  twitter: "@mariapombo"
-                },
-                {
-                  tiktok: "@mariapombo"
-                }
-              ],
-              descripcion: "ADN emprendedor, María ha creado dos marcas de ropa y su propio festival, Suave Fest. Empezó a compartir su vida hace 10 años y ahora es una de las influencers más relevantes del país con una fuerte presencia mediática que la ha llevado a ganar el premio ‘Ídolo del año 2022’."
-            },
-            {
-              
-              nombre: "MANU RÍOS",
-              imagen: "https://forbes.es/wp-content/uploads/2022/09/Manu-Rios-400x400.jpg",
-              categoria: "Lifestyle",
-              rrss: [
-                {
-                  instagram: "@manurios"
-                },
-                {
-                  youtube: "@manurios"
-                },
-                {
-                  twitter: "@manurios"
-                },
-                {
-                  tiktok: "@manurios"
-                }
-              ],
-              descripcion: "Actor, modelo y cantante, conocido por su participación en Élite. Hace poco estrenaba La edad de la ira en febrero y se ha convertido en chico Almodóvar, con quien graba Extraña forma de vida. De joven, destacó en la obra de Los Miserables y ahora es una estrella también en redes."
-            },
-            {
-              
-              nombre: "GEORGINA RODRIGUEZ",
-              imagen: "https://forbes.es/wp-content/uploads/2022/09/Georgina-Rodriguez-400x400.jpg",
-              categoria: "Lifestyle",
-              rrss: [
-                {
-                  instagram: "@georginaglo"
-                },
-                {
-                  youtube: "@georginaglo"
-                },
-                {
-                  twitter: "@georginaglo"
-                },
-                {
-                  tiktok: "@georginaglo"
-                }
-              ],
-              descripcion: "Este ha sido su año, profesionalmente hablando. Ha estrenado una docuserie en Netflix, multiplicando su popularidad y triunfando allá donde va. Georgina lleva y muestra una vida de lujo, pero a la vez comparte de forma humilde la familia que ha formado junto a Cristiano Ronaldo."
-            },
-            {
-              
-              nombre: "TAMARA FALCÓ",
-              imagen: "https://forbes.es/wp-content/uploads/2022/09/Tamara-Falco-1-400x400.jpg",
-              categoria: "Lifestyle",
-              rrss: [
-                {
-                  instagram: "@tamara_falco"
-                },
-                {
-                  youtube: "@tamara_falco"
-                },
-                {
-                  twitter: "@tamara_falco"
-                },
-                {
-                  tiktok: "@tamara_falco"
-                }
-              ],
-              descripcion: "La marquesa de Griñón es polifacética. Tiene una firma de ropa, un libro de recetas, es chef, colaboradora de televisión, diseñadora e influencer. La ganadora de la cuarta edición de MasterChef Celebrity comparte en Instagram su visión sobre la moda, la fe y sus creaciones culinarias."
-            },
-            {
-              
-              nombre: "ESTEFANÍA VERDELISS",
-              imagen: "https://forbes.es/wp-content/uploads/2022/09/Estefi-Verdeliss-400x400.jpg",
-              categoria: "Lifestyle",
-              rrss: [
-                {
-                  instagram: "@verdeliss"
-                },
-                {
-                  youtube: "@verdeliss"
-                },
-                {
-                  twitter: "@verdeliss"
-                },
-                {
-                  tiktok: "@verdeliss"
-                }
-              ],
-              descripcion: "Pionera en subir vlogs a YouTube (a modo de diario), cuando vivía lejos de su Pamplona natal, ahora triunfa también en Instagram donde supera el millón y medio de seguidores. Madre de familia numerosa, se comparte natural y muestra lo bueno y lo malo del embarazo, el parto y la crianza."
-            },
-            {
-              
-              nombre: "MARTA POMBO",
-              imagen: "assets/influencers/marta-pombo.jpg",
-              categoria: "Lifestyle",
-              rrss: [
-                {
-                  instagram: "@mpombor"
-                },
-                {
-                  youtube: "@mpombor"
-                },
-                {
-                  twitter: "@mpombor"
-                },
-                {
-                  tiktok: "@mpombor"
-                }
-              ],
-              descripcion: "La mediana de las Pombo se ha ganado un hueco en las redes con su frescura y espontaneidad. En su perfil habla sin tapujos de lo oscura que puede ser una depresión y de la importancia de la salud mental. Ahora, viviendo uno de sus mejores momentos, la influencer se encuentra enamorada y prometida del bilbaíno Luis Zamalloa. Ambos esperan la llegada de su primera hija, Matilda. Durante todo el embarazo, Marta ha seguido compartiendo sus rutinas, viajes, comidas y los largos paseos con su perrita. No abandona el trabajo ni a sus seguidores, ya que la madrileña sigue colaborando con las marcas y trabajando en la suya propia."
-            },
-            {
-              
-              nombre: "LAURA ESCANES",
-              imagen: "https://forbes.es/wp-content/uploads/2022/09/Laura-Escanes-400x400.jpg",
-              categoria: "Lifestyle",
-              rrss: [
-                {
-                  instagram: "@lauraescanes"
-                },
-                {
-                  youtube: "@lauraescanes"
-                },
-                {
-                  twitter: "@lauraescanes"
-                },
-                {
-                  tiktok: "@lauraescanes"
-                }
-              ],
-              descripcion: "La modelo saltó a la fama por su relación con Risto Mejide, pero no le debe nada. Gracias a las redes siempre ha tenido voz propia, tanto en Instagram como en TikTok, ahora también en Twitch. La madre de Roma tiene su propio salón de belleza y acaba de estrenar podcast con su pareja."
-            },
-            {
-              
-              nombre: "VIOLETA MANGRIÑÁN",
-              imagen: "https://forbes.es/wp-content/uploads/2022/09/Violeta-Mangrin%CC%83an-1-400x400.jpg",
-              categoria: "Lifestyle",
-              rrss: [
-                {
-                  instagram: "@violeta"
-                },
-                {
-                  youtube: "@violeta"
-                },
-                {
-                  twitter: "@violeta"
-                },
-                {
-                  tiktok: "@violeta"
-                }
-              ],
-              descripcion: "Se dio a conocer en diferentes programas de Telecinco. Este año ha tenido a sus seguidores enganchados al proceso de construcción de su casa y al nacimiento de su pequeña. No solo despunta en Instagram, en TikTok roza el millón de<em>followers</em>."
-            },
-            {
-              
-              nombre: "LAURA MATAMOROS",
-              imagen: "https://forbes.es/wp-content/uploads/2022/09/Laura-Matamoros-400x400.jpg",
-              categoria: "Lifestyle",
-              rrss: [
-                {
-                  instagram: "@_lmflores"
-                },
-                {
-                  youtube: "@_lmflores"
-                },
-                {
-                  twitter: "@_lmflores"
-                },
-                {
-                  tiktok: "@_lmflores"
-                }
-              ],
-              descripcion: "Hija del colaborador de televisión Kiko Matamoros, ha sabido hacerse un hueco en el sector e impulsar su negocio, llegando a alcanzar el millón de seguidores en Instagram. La madrileña sube a la red su rutina, viajes, looks desenfadados y algunas pinceladas de su reciente maternidad."
-            }
-          ]
-        },
+        
         {
           href: "fashion",
           titulo: "Fashion",
