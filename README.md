@@ -1,7 +1,7 @@
 # Forbes para ayudar a Jordi Wild, Nate Gentile y Oscar Dorta
 Este es un repositorio donde he rediseñado y programado desde cero la web de Forbes para ayudar a Jordi Wild, Nate Gentile y Oscar Dorta a que se encuentren en el top de la lista de Forbes.
 
-Puedes verla en directo aquí [https://forbes-eduardofierropro.netlify.app/](https://forbes-eduardofierropro.netlify.app/)
+Puedes verla en directo aquí 👉 [https://forbes-eduardofierropro.netlify.app/](https://forbes-eduardofierropro.netlify.app/)
 
 Si te ha gustado o te ha servido coméntalo en un directo o sígueme por Twitch y Youtube 😊
 
