@@ -1,4 +1,4 @@
-![Imagen del proyecto](https://github.com/eduardofierropro/Forbes-con-Jordi-Wild--Nate-Gentile-y-Oscar-Dorta/blob/main/home1.png)
+![Imagen del proyecto](https://github.com/eduardofierropro/Forbes-con-Jordi-Wild--Nate-Gentile-y-Oscar-Dorta/blob/main/src/assets/home1.png)
 
 # Forbes para ayudar a Jordi Wild, Nate Gentile y Oscar Dorta
 
