@@ -63,4 +63,4 @@ Este es un repositorio donde he rediseñado y programado desde cero la web de Fo
 ## 📄 Licencia 
 
 MIT Public License v3.0
-No puede usarse comencialmente
+No puede usarse comercialmente
