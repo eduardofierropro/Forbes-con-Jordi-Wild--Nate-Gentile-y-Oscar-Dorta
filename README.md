@@ -5,8 +5,8 @@
 Este es un repositorio donde he rediseñado y programado desde cero la web de Forbes para ayudar a Jordi Wild, Nate Gentile y Oscar Dorta a que se encuentren en el top de la lista de Forbes.
 
 [![Original website](https://img.shields.io/static/v1?label=&message=Original%20Site&color=4d94b3&style=for-the-badge)](https://forbes.es/mejores-influencers-2022/)
-[![Live Site](https://img.shields.io/static/v1?label=&message=Live%20Site&color=6cccb4&style=for-the-badge)](https://github.com/eduardofierropro/Forbes-con-Jordi-Wild--Nate-Gentile-y-Oscar-Dorta/)
-[![Github Repository](https://img.shields.io/static/v1?label=&message=Github%20Repository&color=000000&style=for-the-badge&logo=github&logoColor=white)](https://forbes-eduardofierropro.netlify.app/)
+[![Live Site](https://img.shields.io/static/v1?label=&message=Live%20Site&color=6cccb4&style=for-the-badge)](https://forbes-eduardofierropro.netlify.app/)
+[![Github Repository](https://img.shields.io/static/v1?label=&message=Github%20Repository&color=000000&style=for-the-badge&logo=github&logoColor=white)](https://github.com/eduardofierropro/Forbes-con-Jordi-Wild--Nate-Gentile-y-Oscar-Dorta/)
 [![Youtube](https://img.shields.io/static/v1?label=&message=ver%20en%20youtube&color=FF0000&logo=youtube&logoColor=white&style=for-the-badge)](https://youtu.be/RbrVM1acWx8)
 
 ## Tecnologías usadas
