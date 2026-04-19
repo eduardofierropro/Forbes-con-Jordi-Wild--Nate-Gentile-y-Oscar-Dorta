@@ -4,6 +4,7 @@ import { IInfluencer, ISticky } from 'src/interfaces/interfaces';
 
 @Component({
   selector: 'app-home',
+  standalone: false,
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })

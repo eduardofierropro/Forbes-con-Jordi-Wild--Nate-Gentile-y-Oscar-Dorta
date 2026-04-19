@@ -3,6 +3,7 @@ import { Rrss } from 'src/interfaces/interfaces';
 
 @Component({
   selector: 'app-influencer',
+  standalone: false,
   templateUrl: './influencer.component.html',
   styleUrls: ['./influencer.component.scss']
 })
